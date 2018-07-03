@@ -1,0 +1,38 @@
+{
+  "name": "react-redux-observable-starterkit",
+  "version": "1.0.0",
+  "description": "��\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tokerranta/react-redux-observable-starterkit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tokerranta/react-redux-observable-starterkit/issues"
+  },
+  "homepage": "https://github.com/tokerranta/react-redux-observable-starterkit#readme",
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.0",
+    "redux-observable": "^1.0.0",
+    "rxjs": "^6.2.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "webpack": "^4.14.0",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
