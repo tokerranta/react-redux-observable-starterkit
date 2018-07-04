@@ -1,5 +1,19 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
 
-export default () => (
-    <h1>Hello from App components</h1>
-);
+class App extends Component {
+
+    render() {
+        return (
+            <h1>{this.props.title}</h1>
+        );
+    }
+}
+
+const mapStateToProps = (state) => {
+    return {
+        title: state.title
+    };
+};
+
+export default connect(mapStateToProps)(App);
